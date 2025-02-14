@@ -4,6 +4,7 @@ import { useTheme } from './ThemeContext';
 import { AnimateOnScroll } from './components/AnimateOnScroll';
 import { TypewriterEffect } from './components/TypewriterEffect';
 import { ContactForm } from './components/ContactForm';
+import profilePic from './public/profile-pic.png';
 
 function App() {
   const { isDarkMode, toggleDarkMode } = useTheme();
@@ -60,9 +61,9 @@ function App() {
 
           <div className="max-w-4xl mx-auto text-center">
             <div className="mb-8">
-              <img
-                src="/profile-pic.png"
-                alt="Waddhanabot Yi"
+            <img 
+                src="/profile-pic.png" 
+                alt="Waddhanaboth Yi"
                 className="w-48 h-48 rounded-full mx-auto object-cover border-4 border-white dark:border-gray-800 shadow-lg"
               />
             </div>
