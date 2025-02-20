@@ -5,6 +5,8 @@ import { AnimateOnScroll } from './components/AnimateOnScroll';
 import { TypewriterEffect } from './components/TypewriterEffect';
 import { ContactForm } from './components/ContactForm';
 import profilePic from './public/profile-pic.png';
+import ChatWidget from './ChatWidget';
+
 
 function App() {
   const { isDarkMode, toggleDarkMode } = useTheme();
@@ -320,6 +322,7 @@ function App() {
           <p>© 2024 Waddhanabot Yi. All rights reserved.</p>
         </div>
       </footer>
+      <ChatWidget />
     </div>
   );
 }
